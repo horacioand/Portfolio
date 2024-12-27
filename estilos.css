@@ -88,9 +88,13 @@ header{
     flex-flow: row wrap;
 }
 .proyecto-item{
-    background-color: grey;
-    margin: 0 20px;
-    padding: 50px 100px;
+    margin: 0 20px;    
+}
+.proyecto-item p{
+
+}
+.proyecto-item img{
+    width: 200px;;
 }
 
 
