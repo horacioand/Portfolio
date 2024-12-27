@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Lato", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+html{
+    background-image: url(images/fondo.webp);
+    background-size: cover;
+}
+.flex-container{
+    display: flex;
+}
+.flex-item{
+    
+ }
+/* Header */
+header{
+    background-color: #8F77DB;
+    margin: 0;
+    padding: 0;
+}
+.header-nav{
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+.nav-ul-li{
+    list-style: none;
+    margin: 10px 20px;
+    padding: 10px;
+    background-color: blueviolet;
+    border-radius: 5%;
+}
+
+
+/* Sobre mi */
+.principal{
+    height: 80vh;
+    justify-content: center;
+}
+.principal-item{
+    margin: 10% 7%;
+}
+ .fondo-transparente{
+    background-color: grey;
+    opacity: 0.9;
+    border-radius: 25px;
+    padding: 25px;
+    align-items: center;
+}
+.foto-perfil{
+    height: 200px;
+    width: 200px;
+}
+
+
+
+/* Seccion aptitudes */
+.aptitudes{
+    background-color: #8F77DB;
+    height: 100px;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+.aptitudes div{
+    margin: auto;
+}
+.img-aptitudes{
+    width: 72px;
+    height: 72px;
+}
+
+
+
+.proyecto-container{
+    background-color:#8F77DB;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.proyectos{
+    flex-flow: row wrap;
+}
+.proyecto-item{
+    background-color: grey;
+    margin: 0 20px;
+    padding: 50px 100px;
+}
+
+
+/* footer */
+.footer{
+    margin-bottom:  0px;
+    background-color: #8F77DB;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+.ul-footer{
+    flex-direction: row;
+}
+.footer-nav-ul-li{
+    list-style: none;
+    margin: 0 10px;
+}
+
+
+
+
